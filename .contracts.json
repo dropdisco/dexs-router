@@ -17,6 +17,10 @@
 
     "moonbase": {
       "router": "0xCBd9c2C10Abb84FbE4FA3F9Ee31cFD39EDa87D6F"
+    },
+    
+    "xdai": {
+    "router": "0x0000000000000000000000000000000000000000"
     }
 
 }
