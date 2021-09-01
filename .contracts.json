@@ -7,6 +7,10 @@
       "router": "0xeeA2111C142b905EdfE2a448dB5eb3ad6E245B92"
     },
 
+    "matic": {
+      "router": "0x7e87a968141Ec02254B53B9e58f9D64355B11B18"
+    },
+    
     "mumbai": {
       "router": "0x0000000000000000000000000000000000000000"
     },
