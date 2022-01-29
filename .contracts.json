@@ -3,24 +3,14 @@
       "router": "0x0000000000000000000000000000000000000000"
     },
 
+    "harmony": {
+      "router": "0x151C94151a38564B42670b5241FbAcEB824E5281"
+    },
+
+    "harmony_testnet": {
+      "router": "0xB280211e1ed7B326ab97521Fd3ed88c0963FeA6E"
+    },
     "rinkeby": {
       "router": "0xA83De401F65a8D13ee9331210B459A3229a70943"
-    },
-
-    "matic": {
-      "router": "0x7e87a968141Ec02254B53B9e58f9D64355B11B18"
-    },
-    
-    "mumbai": {
-      "router": "0xAB8982C3bf11e58db9A02BD788519A6D67214187"
-    },
-
-    "moonbase": {
-      "router": "0xCBd9c2C10Abb84FbE4FA3F9Ee31cFD39EDa87D6F"
-    },
-    
-    "xdai": {
-    "router": "0x0000000000000000000000000000000000000000"
     }
-
 }
