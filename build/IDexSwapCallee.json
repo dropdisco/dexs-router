@@ -1,6 +1,7 @@
 {
   "abi": [
     {
+      "constant": false,
       "inputs": [
         {
           "internalType": "address",
@@ -25,6 +26,7 @@
       ],
       "name": "DexSwapCall",
       "outputs": [],
+      "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
     }
@@ -37,7 +39,6 @@
       "sourceMap": ""
     },
     "deployedBytecode": {
-      "immutableReferences": {},
       "linkReferences": {},
       "object": "",
       "opcodes": "",
@@ -46,6 +47,7 @@
   },
   "interface": [
     {
+      "constant": false,
       "inputs": [
         {
           "internalType": "address",
@@ -70,6 +72,7 @@
       ],
       "name": "DexSwapCall",
       "outputs": [],
+      "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
     }

@@ -1,11 +1,10 @@
-# DexSswap Periphery Contracts
-
-## Local Development
-
-The following assumes the use of `node@>=10`.
+# DEXswap Core . 
 
 ## Clone Repository
 
+`git clone https://github.com/Agin-DropDisco/dexswap-core.git`
+
+- Migrations Move Here : https://github.com/Agin-DropDisco/dexswap-core-migrations
 ## Install Dependencies
 
 `yarn`
@@ -17,6 +16,10 @@ The following assumes the use of `node@>=10`.
 ## Run Tests
 
 `yarn test`
+
+## Flatten Contracts
+
+`yarn flattener`
 
 ## Flatten Contracts
 

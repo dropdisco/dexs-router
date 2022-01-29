@@ -4,7 +4,7 @@ const path= require('path');
 const abiPrefix = "abi.";
 const abiFiles = [
     [
-        '../build/DEXswapRouter.json',
+        '../build/contracts/DexSwapFeeSetter.json',
     ],
 ];
 
