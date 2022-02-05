@@ -35,27 +35,31 @@ module.exports = {
       gasPrice: 2100000001, //3 Gwei,
       skipDryRun: true
     },
-    ropsten: {
-      provider: () => new HDWalletProvider([privateKey1, privateKey2, privateKey3], `https://ropsten.infura.io/v3/${process.env.INFURA_API_KEY}`),
-      network_id: 3,
-      gas: 0,
-      gasPrice: 2100000001, //3 Gwei,
-      skipDryRun: true
-    },	
-    matic: {	
-      provider: () => new HDWalletProvider([privateKey1, privateKey2, privateKey3], `https://matic-mainnet.chainstacklabs.com`),
-      network_id: 137,
-      gas: 0,
-      gasPrice: 2100000000, //2 Gwei,
-      skipDryRun: true,
-      confirmations: 2,
-      timeoutBlocks: 200
+    harmony: {
+      provider: () => {
+        return new HDWalletProvider({
+          mnemonic,
+          providerOrUrl: 'https://api.s0.t.hmny.io',
+          derivationPath: `m/44'/1023'/0'/0/`
+        });
+      },
+      network_id: 1666600000, // 1666600000 for mainnet
+    }, 
+    harmony_testnet: {
+      provider: () => {
+        return new HDWalletProvider({
+          mnemonic,
+          providerOrUrl: 'https://api.s0.b.hmny.io', // https://api.s0.t.hmny.io for mainnet
+          derivationPath: `m/44'/1023'/0'/0/`
+        });
+      },
+      network_id: 1666700000, // 1666600000 for mainnet
     },
     mumbai: {	
-      provider: () => new HDWalletProvider(mnemonic, `https://polygon-mumbai.g.alchemy.com/v2/fEN3ZFkLkcXBujTWqxsJu8WViDmP3V7_`),
+      provider: () => new HDWalletProvider(mnemonic, `https://matic-mumbai.chainstacklabs.com`),
       network_id: 80001,
-      gasPrice: 3100000000, //2 Gwei,
-      skipDryRun: true
+      skipDryRun: true,
+      timeoutBlocks: 200
     },
     
   },
