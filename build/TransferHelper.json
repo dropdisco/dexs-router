@@ -1,16 +1,16 @@
 {
   "contractName": "TransferHelper",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/libraries/TransferHelper.sol\":\"TransferHelper\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/libraries/TransferHelper.sol\":{\"keccak256\":\"0xcf4f13802fe8e42cb919f087f8ff354313a78687770d86484bbb43939e5bbb6c\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://fc7a3d6d5b4e74c04044fdeec884ae3304c42408a90392b42271e207d5ed517c\",\"dweb:/ipfs/QmbigAtopZw53Zna3B1Fa94dbP7FNGXbfh7ToUj7FLvaw7\"]}},\"version\":1}",
-  "bytecode": "0x60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220309528ff52eaf704a2844d058d3e4457dc4a7defc63d60d0ba16953bc8104edb64736f6c634300060c0033",
-  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220309528ff52eaf704a2844d058d3e4457dc4a7defc63d60d0ba16953bc8104edb64736f6c634300060c0033",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/libraries/TransferHelper.sol\":\"TransferHelper\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/libraries/TransferHelper.sol\":{\"keccak256\":\"0xcf4f13802fe8e42cb919f087f8ff354313a78687770d86484bbb43939e5bbb6c\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://fc7a3d6d5b4e74c04044fdeec884ae3304c42408a90392b42271e207d5ed517c\",\"dweb:/ipfs/QmbigAtopZw53Zna3B1Fa94dbP7FNGXbfh7ToUj7FLvaw7\"]}},\"version\":1}",
+  "bytecode": "0x60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220ab67c4366cdc84367a5ed9eff5cabcaf9571ae89cf4bb41c035d15f1e4dd7d3564736f6c634300060c0033",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220ab67c4366cdc84367a5ed9eff5cabcaf9571ae89cf4bb41c035d15f1e4dd7d3564736f6c634300060c0033",
   "immutableReferences": {},
   "sourceMap": "173:1350:23:-:0;;;;;;;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "173:1350:23:-:0;;;;;;;;",
   "source": "// SPDX-License-Identifier: GPL-3.0\npragma solidity >=0.6.0;\n\n// helper methods for interacting with ERC20 tokens and sending ETH that do not consistently return true/false\nlibrary TransferHelper {\n    function safeApprove(address token, address to, uint value) internal {\n        // bytes4(keccak256(bytes('approve(address,uint256)')));\n        (bool success, bytes memory data) = token.call(abi.encodeWithSelector(0x095ea7b3, to, value));\n        require(success && (data.length == 0 || abi.decode(data, (bool))), 'TransferHelper: APPROVE_FAILED');\n    }\n\n    function safeTransfer(address token, address to, uint value) internal {\n        // bytes4(keccak256(bytes('transfer(address,uint256)')));\n        (bool success, bytes memory data) = token.call(abi.encodeWithSelector(0xa9059cbb, to, value));\n        require(success && (data.length == 0 || abi.decode(data, (bool))), 'TransferHelper: TRANSFER_FAILED');\n    }\n\n    function safeTransferFrom(address token, address from, address to, uint value) internal {\n        // bytes4(keccak256(bytes('transferFrom(address,address,uint256)')));\n        (bool success, bytes memory data) = token.call(abi.encodeWithSelector(0x23b872dd, from, to, value));\n        require(success && (data.length == 0 || abi.decode(data, (bool))), 'TransferHelper: TRANSFER_FROM_FAILED');\n    }\n\n    function safeTransferETH(address to, uint value) internal {\n        (bool success,) = to.call{value:value}(new bytes(0));\n        require(success, 'TransferHelper: ETH_TRANSFER_FAILED');\n    }\n}\n",
-  "sourcePath": "/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/libraries/TransferHelper.sol",
+  "sourcePath": "/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/libraries/TransferHelper.sol",
   "ast": {
-    "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/libraries/TransferHelper.sol",
+    "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/libraries/TransferHelper.sol",
     "exportedSymbols": {
       "TransferHelper": [
         7540
@@ -2442,7 +2442,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/libraries/TransferHelper.sol",
+      "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/libraries/TransferHelper.sol",
       "exportedSymbols": {
         "TransferHelper": [
           7540
@@ -5008,7 +5008,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-08-31T12:01:48.276Z",
+  "updatedAt": "2022-02-18T00:41:07.548Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

@@ -22,7 +22,7 @@ library DexSwapLibrary {
             hex'ff',
             factory,
             keccak256(abi.encodePacked(token0, token1)),
-            hex'150b4ac6b908c76f4d28c378f9d050600e012455d0383ed35598e31688ee2e7b' 
+            hex'ac17f607c2e91b3bbb92c2ffe17fe2775041d68f0c80032725189cc9943f262b' 
 
         ))));
     }

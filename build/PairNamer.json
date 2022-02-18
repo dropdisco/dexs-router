@@ -1,16 +1,16 @@
 {
   "contractName": "PairNamer",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/libraries/PairNamer.sol\":\"PairNamer\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/libraries/AddressStringUtil.sol\":{\"keccak256\":\"0xb68d84b9f8cbcc8edae5095af7df1afeef5bd295969e2703c016213fb74382f0\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://36e89d22a3b426b08adf132e7b18c1b562bb69953da2151948ba81f582a85efc\",\"dweb:/ipfs/QmYoGb9zZ9nXh62psDCfSV71KSNZdpans63VuCAjHUGR5y\"]},\"/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/libraries/PairNamer.sol\":{\"keccak256\":\"0xc7636c40a66e8083fda4642cc6da836fcb78012788e043fc43ec356dc44cf43b\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://927a2246319298a28d0e51d2fa2fdc3b3691306312c97f9738d15c337e5a7ed0\",\"dweb:/ipfs/QmepRDqJGB5YM2GntFh5uBsSMQcfayb5K3kK1BXLQHYQnq\"]},\"/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/libraries/SafeERC20Namer.sol\":{\"keccak256\":\"0x039e73f77e83fd7875c1772817d63e12ea7b4c3b45250be9a7279728fb746ce3\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://bf8bfc82b610dfbe8be03c6ac78bc5045fa05a0581c794dbcb68b5e6293a450a\",\"dweb:/ipfs/QmNWxh1JU8TVFHnwzfZACAf43ZyLitvu6RFo5tfQeBqAb7\"]}},\"version\":1}",
-  "bytecode": "0x60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212202552065abc95962f410ae15afce3509a611fe1103cd8f6890ef88e2b645432ef64736f6c634300060c0033",
-  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212202552065abc95962f410ae15afce3509a611fe1103cd8f6890ef88e2b645432ef64736f6c634300060c0033",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/libraries/PairNamer.sol\":\"PairNamer\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/libraries/AddressStringUtil.sol\":{\"keccak256\":\"0xb68d84b9f8cbcc8edae5095af7df1afeef5bd295969e2703c016213fb74382f0\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://36e89d22a3b426b08adf132e7b18c1b562bb69953da2151948ba81f582a85efc\",\"dweb:/ipfs/QmYoGb9zZ9nXh62psDCfSV71KSNZdpans63VuCAjHUGR5y\"]},\"/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/libraries/PairNamer.sol\":{\"keccak256\":\"0xc7636c40a66e8083fda4642cc6da836fcb78012788e043fc43ec356dc44cf43b\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://927a2246319298a28d0e51d2fa2fdc3b3691306312c97f9738d15c337e5a7ed0\",\"dweb:/ipfs/QmepRDqJGB5YM2GntFh5uBsSMQcfayb5K3kK1BXLQHYQnq\"]},\"/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/libraries/SafeERC20Namer.sol\":{\"keccak256\":\"0x039e73f77e83fd7875c1772817d63e12ea7b4c3b45250be9a7279728fb746ce3\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://bf8bfc82b610dfbe8be03c6ac78bc5045fa05a0581c794dbcb68b5e6293a450a\",\"dweb:/ipfs/QmNWxh1JU8TVFHnwzfZACAf43ZyLitvu6RFo5tfQeBqAb7\"]}},\"version\":1}",
+  "bytecode": "0x60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212206d2c3cd77c5c8596694f7078dc09fbb5c3401c45e051997271ffaa11cb6dbcb464736f6c634300060c0033",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212206d2c3cd77c5c8596694f7078dc09fbb5c3401c45e051997271ffaa11cb6dbcb464736f6c634300060c0033",
   "immutableReferences": {},
   "sourceMap": "162:1136:20:-:0;;;;;;;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "162:1136:20:-:0;;;;;;;;",
   "source": "// SPDX-License-Identifier: GPL-3.0\npragma solidity >=0.5.0;\n\nimport './SafeERC20Namer.sol';\n\n// produces names for pairs of tokens using DexSwap's naming scheme\nlibrary PairNamer {\n    string private constant TOKEN_PAIR_PREFIX = 'DEXS';\n    string private constant TOKEN_SEPARATOR = ':';\n\n    // produces a pair descriptor in the format of `${prefix}${name0}:${name1}${suffix}`\n    function pairName(address token0, address token1, string memory prefix, string memory suffix) internal view returns (string memory) {\n        return string(\n            abi.encodePacked(\n                prefix,\n                SafeERC20Namer.tokenName(token0),\n                TOKEN_SEPARATOR,\n                SafeERC20Namer.tokenName(token1),\n                suffix\n            )\n        );\n    }\n\n    // produces a pair symbol in the format of `DEXS:${symbol0}:${symbol1}${suffix}`\n    function pairSymbol(address token0, address token1, string memory suffix) internal view returns (string memory) {\n        return string(\n            abi.encodePacked(\n                TOKEN_PAIR_PREFIX,\n                TOKEN_SEPARATOR,\n                SafeERC20Namer.tokenSymbol(token0),\n                TOKEN_SEPARATOR,\n                SafeERC20Namer.tokenSymbol(token1),\n                suffix\n            )\n        );\n    }\n}\n",
-  "sourcePath": "/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/libraries/PairNamer.sol",
+  "sourcePath": "/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/libraries/PairNamer.sol",
   "ast": {
-    "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/libraries/PairNamer.sol",
+    "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/libraries/PairNamer.sol",
     "exportedSymbols": {
       "PairNamer": [
         6990
@@ -32,7 +32,7 @@
         "src": "36:24:20"
       },
       {
-        "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/libraries/SafeERC20Namer.sol",
+        "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/libraries/SafeERC20Namer.sol",
         "file": "./SafeERC20Namer.sol",
         "id": 6920,
         "nodeType": "ImportDirective",
@@ -1088,7 +1088,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/libraries/PairNamer.sol",
+      "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/libraries/PairNamer.sol",
       "exportedSymbols": {
         "PairNamer": [
           6990
@@ -1113,7 +1113,7 @@
       {
         "attributes": {
           "SourceUnit": 7306,
-          "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/libraries/SafeERC20Namer.sol",
+          "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/libraries/SafeERC20Namer.sol",
           "file": "./SafeERC20Namer.sol",
           "scope": 6991,
           "symbolAliases": [
@@ -2242,7 +2242,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-08-31T12:01:48.188Z",
+  "updatedAt": "2022-02-18T00:41:07.483Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

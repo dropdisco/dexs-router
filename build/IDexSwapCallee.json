@@ -30,16 +30,16 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount0\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount1\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"DexSwapCall\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/interfaces/IDexSwapCallee.sol\":\"IDexSwapCallee\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/interfaces/IDexSwapCallee.sol\":{\"keccak256\":\"0x4a1b76518e414c60c72d00aceef2f51f4f88db5e34f3b9ca1a2fd2cd26447d7d\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://e61010ccb2b5bd110b206520b91bd69ac6bac588a84d8f237993f6378987a628\",\"dweb:/ipfs/QmP9xiKoVfdH1csMRLcUFyQrHqfEdhavPKinkR2e35WKhp\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount0\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount1\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"DexSwapCall\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/interfaces/IDexSwapCallee.sol\":\"IDexSwapCallee\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/interfaces/IDexSwapCallee.sol\":{\"keccak256\":\"0x4a1b76518e414c60c72d00aceef2f51f4f88db5e34f3b9ca1a2fd2cd26447d7d\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://e61010ccb2b5bd110b206520b91bd69ac6bac588a84d8f237993f6378987a628\",\"dweb:/ipfs/QmP9xiKoVfdH1csMRLcUFyQrHqfEdhavPKinkR2e35WKhp\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: GPL-3.0\npragma solidity ^0.6.6  ;\n\ninterface IDexSwapCallee {\n    function DexSwapCall(address sender, uint amount0, uint amount1, bytes calldata data) external;\n}\n",
-  "sourcePath": "/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/interfaces/IDexSwapCallee.sol",
+  "sourcePath": "/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/interfaces/IDexSwapCallee.sol",
   "ast": {
-    "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/interfaces/IDexSwapCallee.sol",
+    "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/interfaces/IDexSwapCallee.sol",
     "exportedSymbols": {
       "IDexSwapCallee": [
         4923
@@ -226,7 +226,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/interfaces/IDexSwapCallee.sol",
+      "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/interfaces/IDexSwapCallee.sol",
       "exportedSymbols": {
         "IDexSwapCallee": [
           4923
@@ -438,7 +438,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-08-31T12:01:47.835Z",
+  "updatedAt": "2022-02-18T00:41:07.302Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

@@ -1,16 +1,16 @@
 {
   "contractName": "DexSwapOracleLibrary",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/libraries/DexSwapOracleLibrary.sol\":\"DexSwapOracleLibrary\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/interfaces/IDexSwapPair.sol\":{\"keccak256\":\"0xec2b8d41787a541201152e8e32da765594cb6de0347b27798a7c50d7ef1b8ab8\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://32b84d8f197d9e568d4b9c0dd5df55cae37aa211d57a47628423d95b35d40cb1\",\"dweb:/ipfs/QmTzx9C3dfDvFfRxe4zjeV8M8rGTmgcXn9NzxoonwjfYxN\"]},\"/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/libraries/DexSwapOracleLibrary.sol\":{\"keccak256\":\"0x53100a19ca6db33fb4c4951e3d0b294cde3dbf227c5eb880c0044d0a19d43096\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://86b3db00af94b5d4972382fdbc743dbf480acf9a2093761201767d376c2b25b1\",\"dweb:/ipfs/Qmb1ekCpfJgx2SAsecwaAD2df5y7zpqBmVhinYyucN8jZT\"]},\"/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/libraries/FixedPoint.sol\":{\"keccak256\":\"0xaba99472cfbc043c1a36c86c8f7abc1238d3a1883c59124d284837f157f69517\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://a5d7bf48d9dd588dbdb17580b541fa780c0f3840cd1579d5111c6223f66b2611\",\"dweb:/ipfs/Qmf9HZKYB42yX6JAPWdipph5yE7GB8E4dQR72KGkV7sZme\"]}},\"version\":1}",
-  "bytecode": "0x60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220f779877048a027b0ba35573ba6c5f2442bd711c5b852c7ee3f68239e8a99ed6964736f6c634300060c0033",
-  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220f779877048a027b0ba35573ba6c5f2442bd711c5b852c7ee3f68239e8a99ed6964736f6c634300060c0033",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/libraries/DexSwapOracleLibrary.sol\":\"DexSwapOracleLibrary\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/interfaces/IDexSwapPair.sol\":{\"keccak256\":\"0xec2b8d41787a541201152e8e32da765594cb6de0347b27798a7c50d7ef1b8ab8\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://32b84d8f197d9e568d4b9c0dd5df55cae37aa211d57a47628423d95b35d40cb1\",\"dweb:/ipfs/QmTzx9C3dfDvFfRxe4zjeV8M8rGTmgcXn9NzxoonwjfYxN\"]},\"/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/libraries/DexSwapOracleLibrary.sol\":{\"keccak256\":\"0x53100a19ca6db33fb4c4951e3d0b294cde3dbf227c5eb880c0044d0a19d43096\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://86b3db00af94b5d4972382fdbc743dbf480acf9a2093761201767d376c2b25b1\",\"dweb:/ipfs/Qmb1ekCpfJgx2SAsecwaAD2df5y7zpqBmVhinYyucN8jZT\"]},\"/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/libraries/FixedPoint.sol\":{\"keccak256\":\"0xaba99472cfbc043c1a36c86c8f7abc1238d3a1883c59124d284837f157f69517\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://a5d7bf48d9dd588dbdb17580b541fa780c0f3840cd1579d5111c6223f66b2611\",\"dweb:/ipfs/Qmf9HZKYB42yX6JAPWdipph5yE7GB8E4dQR72KGkV7sZme\"]}},\"version\":1}",
+  "bytecode": "0x60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212206e49222d87bf8db2181afc28af23d3425942ca99d72a0b2b2b40da63d8759f0564736f6c634300060c0033",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212206e49222d87bf8db2181afc28af23d3425942ca99d72a0b2b2b40da63d8759f0564736f6c634300060c0033",
   "immutableReferences": {},
   "sourceMap": "224:1436:18:-:0;;;;;;;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "224:1436:18:-:0;;;;;;;;",
   "source": "// SPDX-License-Identifier: GPL-3.0\npragma solidity >=0.5.0;\n\nimport '../interfaces/IDexSwapPair.sol';\n\nimport './FixedPoint.sol';\n\n// library with helper methods for oracles that are concerned with computing average prices\nlibrary DexSwapOracleLibrary {\n    using FixedPoint for *;\n\n    // helper function that returns the current block timestamp within the range of uint32, i.e. [0, 2**32 - 1]\n    function currentBlockTimestamp() internal view returns (uint32) {\n        return uint32(block.timestamp % 2 ** 32);\n    }\n\n    // produces the cumulative price using counterfactuals to save gas and avoid a call to sync.\n    function currentCumulativePrices(\n        address pair\n    ) internal view returns (uint price0Cumulative, uint price1Cumulative, uint32 blockTimestamp) {\n        blockTimestamp = currentBlockTimestamp();\n        price0Cumulative = IDexSwapPair(pair).price0CumulativeLast();\n        price1Cumulative = IDexSwapPair(pair).price1CumulativeLast();\n\n        // if time has elapsed since the last update on the pair, mock the accumulated price values\n        (uint112 reserve0, uint112 reserve1, uint32 blockTimestampLast) = IDexSwapPair(pair).getReserves();\n        if (blockTimestampLast != blockTimestamp) {\n            // subtraction overflow is desired\n            uint32 timeElapsed = blockTimestamp - blockTimestampLast;\n            // addition overflow is desired\n            // counterfactual\n            price0Cumulative += uint(FixedPoint.fraction(reserve1, reserve0)._x) * timeElapsed;\n            // counterfactual\n            price1Cumulative += uint(FixedPoint.fraction(reserve0, reserve1)._x) * timeElapsed;\n        }\n    }\n}\n",
-  "sourcePath": "/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/libraries/DexSwapOracleLibrary.sol",
+  "sourcePath": "/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/libraries/DexSwapOracleLibrary.sol",
   "ast": {
-    "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/libraries/DexSwapOracleLibrary.sol",
+    "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/libraries/DexSwapOracleLibrary.sol",
     "exportedSymbols": {
       "DexSwapOracleLibrary": [
         6740
@@ -32,7 +32,7 @@
         "src": "36:24:18"
       },
       {
-        "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/interfaces/IDexSwapPair.sol",
+        "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/interfaces/IDexSwapPair.sol",
         "file": "../interfaces/IDexSwapPair.sol",
         "id": 6636,
         "nodeType": "ImportDirective",
@@ -43,7 +43,7 @@
         "unitAlias": ""
       },
       {
-        "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/libraries/FixedPoint.sol",
+        "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/libraries/FixedPoint.sol",
         "file": "./FixedPoint.sol",
         "id": 6637,
         "nodeType": "ImportDirective",
@@ -1506,7 +1506,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/libraries/DexSwapOracleLibrary.sol",
+      "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/libraries/DexSwapOracleLibrary.sol",
       "exportedSymbols": {
         "DexSwapOracleLibrary": [
           6740
@@ -1531,7 +1531,7 @@
       {
         "attributes": {
           "SourceUnit": 5379,
-          "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/interfaces/IDexSwapPair.sol",
+          "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/interfaces/IDexSwapPair.sol",
           "file": "../interfaces/IDexSwapPair.sol",
           "scope": 6741,
           "symbolAliases": [
@@ -1546,7 +1546,7 @@
       {
         "attributes": {
           "SourceUnit": 6918,
-          "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/OPEN-DEFI/agin-dropdisco/router/contracts/libraries/FixedPoint.sol",
+          "absolutePath": "/mnt/d/AGIN-WORKS-GITHUB/AURORA/factory-router/contracts/libraries/FixedPoint.sol",
           "file": "./FixedPoint.sol",
           "scope": 6741,
           "symbolAliases": [
@@ -3157,7 +3157,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-08-31T12:01:48.125Z",
+  "updatedAt": "2022-02-18T00:41:07.451Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
