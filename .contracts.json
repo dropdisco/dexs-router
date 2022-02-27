@@ -11,6 +11,10 @@
       "router": "0xB280211e1ed7B326ab97521Fd3ed88c0963FeA6E"
     },
     
+   "alfajores": {
+      "router": "0x81dcB3d1bD7Af5801d48Ed1f21Ed3c95A4eD8b27"
+    },
+    
     "rinkeby": {
       "router": "0xA83De401F65a8D13ee9331210B459A3229a70943"
     }
