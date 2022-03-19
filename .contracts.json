@@ -8,11 +8,11 @@
   },
 
   "harmony_testnet": {
-    "router": "0xB280211e1ed7B326ab97521Fd3ed88c0963FeA6E"
+    "router": "0xF32d63200b4F6bbfb58E051520549955bF6A0d8e"
   },
 
   "mumbai": {
-    "router": "0x061aCa877cAaE9f6c63bb934aCE54E2E75939248"
+    "router": "0x32a77e4C98ff38Ae8B4A82b7cde683818329794a"
   },
 
   "rinkeby": {
